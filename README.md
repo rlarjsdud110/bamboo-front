@@ -1,5 +1,5 @@
-# SpringBoot-Project-MEGABOX
-스프링 부트 + JSP 파싱_영화 예매 사이트
+# SpringBoot-Project-BAMBOO
+스프링 부트 + HTML, CSS, JS로 만든 게시판 사이트
 
 
 ## 📝 프로젝트 소개

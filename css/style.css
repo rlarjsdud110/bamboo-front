@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    font-size: 10px;
+}
+.board_wrap{
+    width: 1024px;
+    margin: 100px auto;
+}

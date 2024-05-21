@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>잡담</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>잡담</strong>
+            <p>다양한 주제의 내용을 작성하세요</p>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_write">
+                <div class="title">
+                    <dl>
+                        <dt>제목</dt>
+                        <dd><input type="text" placeholder="기존 제목 넣어야함"></dd>
+                    </dl>
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>글쓴이</dt>
+                        <dd><input type="text" readonly value="기존 별명 넣어야함"></dd>
+                    </dl>
+                    <dl>
+                        <dt>비밀번호</dt>
+                        <dd><input class="password" type="password" placeholder="비밀번호 입력"></dd>
+                    </dl>
+                </div>
+                <div class="content">
+                    <textarea placeholder="기존 내용들 보여줘야함"></textarea>
+                </div>
+            </div>
+
+            <div class="btn_wrap">
+                <a href="#" class="on">수정</a>
+                <a href="postList.html">취소</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/post/update.js"></script>
+</body>
+</html>

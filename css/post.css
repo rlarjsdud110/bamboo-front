@@ -1,0 +1,60 @@
+
+.board_post{
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.board_post .title{
+    padding: 20px 15px;
+    border-bottom: 1px solid lightgray;
+    font-size: 2rem;
+}
+
+.board_post .info{
+    padding: 15px;
+    border-bottom: 1px solid darkgray;
+    font-size: 0;
+}
+
+.board_post .info dl{
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.board_post .info dl:first-child{
+    padding-left: 0;
+}
+
+.board_post .info dl::before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 13px;
+    background: darkgray;
+}
+
+.board_post .info dl:first-child::before{
+    display: none;
+}
+
+.board_post .info dl dd,
+.board_post .info dl dt{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.board_post .info dl dd{
+    margin-left: 10px;
+    color: gray;
+}
+
+.board_post .content{
+    padding: 15px;
+    border-bottom: 1px solid black;
+    line-height: 160%;
+    font-size: 1.5rem;
+}

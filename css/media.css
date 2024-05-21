@@ -1,0 +1,113 @@
+@media screen and (max-width: 1024px) {
+    .board_wrap {
+        width: 100%;
+        min-width: 320px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .login{
+        min-width: 410px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .board_list .num,
+    .board_list .writer,
+    .board_list .count {
+        display: none;
+    }
+
+    .board_list .date {
+        width: 40%;
+        font-size: 1.4rem;
+    }
+
+    .board_list .title {
+        text-indent: 10px;
+        font-size: 1.4rem;
+    }
+
+    .board_list .top .title {
+        text-indent: 0;
+    }
+
+    .board_page a {
+        width: 26px;
+        height: 26px;
+    }
+
+    .board_page a.btn_next,
+    .board_page a.btn_back {
+        padding-top: 7px;
+    }
+
+    .board_page a.num {
+        padding-top: 6px;
+    }
+
+    .board_post .info dl {
+        width: 50%;
+        padding: 0;
+    }
+
+    .board_post .info dl:nth-child(-n+2) {
+        margin-bottom: 5px;
+    }
+
+    .board_post .info dl::before {
+        display: none;
+    }
+
+    .board_post .info dl dd,
+    .board_post .info dl dt {
+        font-size: 1.2rem;
+    }
+
+    .board_post .content {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .login{
+        width: 100%;
+        min-width: 320px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .login div ul li a{
+        font-size: 13px;
+    }
+
+    .board_list .date,
+    .board_list .title {
+        font-size: 1.1rem;
+    }
+
+    .board_write .info dt,
+    .board_write .title dt {
+        display: none;
+    }
+
+    .board_write .info dl{
+        width: 49%;
+    }
+
+    .board_write .info dl:first-child{
+        margin-right: 2%;
+    }
+
+    .board_write .info dd,
+    .board_write .title dd {
+        width: 100%;
+    }
+
+    .board_write .title input[type="text"],
+    .board_write .info input[type="text"],
+    .board_write .info input[type="password"] {
+        width: 100%;
+    }
+}
